@@ -1,0 +1,37 @@
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+.ant-picker-input>input{
+  color:white !important;
+}
+.ant-picker-input>input::placeholder {
+  color: white !important;;
+}
+.ant-picker-input>input::before {
+  color: white !important;;
+}
+.ant-picker-input>input::after {
+  color: white !important;;
+}
+/* .ant-picker-range{
+  color:white !important;
+} */
+/* .anticon>svg .anticon-close-circle>svg{
+  color:white !important;
+  
+} */
+.ant-picker-suffix{
+  color:#354FAB !important;
+
+}
+.ant-picker-separator{
+  color:white !important;
+}
